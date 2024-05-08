@@ -58,5 +58,11 @@ img {
     justify-content: center;
     margin: 20px;
     padding: 20px;
-    border: solid black 2px;
+    color: white;
+    font-size: 20pt;
+}
+
+footer {
+    color: white;
+    margin: 20px;
 }
