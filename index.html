@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISS position app</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="title">
+        <h1 style="text-align: center;">ISS position app</h1>
+        <p style="text-align: center;" id="header-p">This app shows the current position of the International Space Station</p>
+    </div>
+    <div class="container">
+        <div class="image" alt="space-station"><img src="https://th.bing.com/th/id/OIP.ZvWmlOntDPbLFD-HMNj-sAHaE6?w=286&h=190&c=7&r=0&o=5&dpr=2&pid=1.7"></div>
     
+        <div class="button">
+            <button id="button">Check position</button>
+        </div>
+
+        <div class="result">
+            <p id="result">Print results</p>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
