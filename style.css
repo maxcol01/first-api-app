@@ -5,6 +5,7 @@ body {
 
 .title {
     color: white;
+    font-size: 20pt;
 }
 
 .header-p{
@@ -16,12 +17,13 @@ body {
     margin: 20px;
     padding: 20px;
     justify-content: center;
-    
 }
 
 img {
     border-radius: 100pt;
-    box-shadow: 4px 4px rgba(128, 128, 128, 0.3)
+    box-shadow: 8px 8px rgba(230, 229, 229, 0.3);
+    width: 35%;
+    height: 35%;
 }
 
 .button {
@@ -35,10 +37,14 @@ img {
     font-size: 20pt;
     background-color: aliceblue;
     border-radius: 10pt;
+    border: 0;
+    outline: 0;
     padding: 5px 5px 5px 5px;
     color: white;
-    background-color: rgba(234, 150, 54, 0.642);
-    box-shadow: 4px 4px rgba(128, 128, 128, 0.3)
+    background-color: rgba(250, 135, 4, 0.776);
+    box-shadow: 4px 4px rgba(230, 229, 229, 0.3);
+    width: 20%;
+    height: 20%;
 }
 
 #button:hover {

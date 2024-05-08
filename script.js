@@ -1,3 +1,5 @@
 $(".button").on("click", () => {
-    alert("ok it works")
+    // fetch the API
+    $("#result").html("This app shows the current position of the International Space Station")
 });
+
